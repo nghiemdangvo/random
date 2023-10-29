@@ -1,0 +1,63 @@
+---
+title: "Vector Operations in R"
+author: "Dang Nghiem Vo"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# `intersect()` Function
+
+The `intersect()` function returns the common elements between two vectors. Here's an example:
+
+```{r}
+# Example: Finding common elements between two vectors
+vec1 <- c(1, 2, 3, 4, 5)
+vec2 <- c(3, 4, 5, 6, 7)
+common_elements <- intersect(vec1, vec2)
+common_elements
+```
+
+# `setdiff()` Function
+
+The `setdiff()` function returns the elements in the first vector that are not present in the second vector. Here's an example:
+
+```{r}
+# Example: Finding elements unique to vec1
+unique_to_vec1 <- setdiff(vec1, vec2)
+unique_to_vec1
+```
+
+# `union()` Function
+
+The `union()` function returns all unique elements from both vectors. Here's an example:
+
+```{r}
+# Example: Combining unique elements from vec1 and vec2
+all_unique_elements <- union(vec1, vec2)
+all_unique_elements
+```
+
+# `setequal()` Function
+
+The `setequal()` function checks if two vectors have the same elements, regardless of their order. Here's an example:
+
+```{r}
+# Example: Checking if vec1 and vec2 have the same elements
+are_equal <- setequal(vec1, vec2)
+are_equal
+```
+
+# `unique()` Function
+
+The `unique()` function returns the unique elements of a vector. Here's an example:
+
+```{r}
+# Example: Finding unique elements in a vector
+vec_with_duplicates <- c(1, 2, 2, 3, 3, 3, 4, 4, 5)
+unique_elements <- unique(vec_with_duplicates)
+unique_elements
+```

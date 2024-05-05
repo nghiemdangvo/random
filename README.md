@@ -7,5 +7,6 @@ A repository for archiving random coding projects along the way of my own self-l
 A broad collection of mathematical problems from easy to advanced level for computation/mathematical practice.
 
 [Problem #1](https://nghiemdangvo.github.io/random/Project_Euler_1.html)
+[Problem #2](https://nghiemdangvo.github.io/random/EvenFib.html)
 
 

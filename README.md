@@ -8,5 +8,6 @@ A broad collection of mathematical problems from easy to advanced level for comp
 
 [Problem #1](https://nghiemdangvo.github.io/random/Project_Euler_1.html)<br>
 [Problem #2](https://nghiemdangvo.github.io/random/EvenFib.html)
+[Problem #3](https://nghiemdangvo.github.io/random/PE_3.html)
 
 
